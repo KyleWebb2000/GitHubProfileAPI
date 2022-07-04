@@ -11,7 +11,6 @@ async function getUser(user) {
     showUserInfo(dataBack);
 }
 
-// async function used from StackOverflow with await keyword
 
 function showUserInfo(user) {
 

@@ -1,0 +1,17 @@
+Kyle Webb - GitHub Username Search Project.
+
+Instructions:
+    1) Open the index.html file with any browser of your choice, (i.e. Chrome).
+
+    2) Click on the search bar and enter the username of the profile that you wish to view. If the username that you entered is not valid, then an alert will pop up to notify you!
+
+    3) Once a valid username has been entered, the users profile will appear on screen.
+
+    4) The users name, profile link and number of repositories that they have will appear.
+
+    5) Click on either the users profile picture or the 'View profile' button to view their GitHub account!
+
+    Enjoy!
+
+    
+

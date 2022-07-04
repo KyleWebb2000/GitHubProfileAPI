@@ -11,7 +11,6 @@ async function getUser(user) {
     showUserInfo(dataBack);
 }
 
-
 function showUserInfo(user) {
 
     if(user.message === "Not Found"){

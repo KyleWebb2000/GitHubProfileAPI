@@ -13,13 +13,15 @@ async function getUser(user) {
 
 function showUserInfo(user) {
 
+    var userUi = ""
     if(user.message === "Not Found"){
-        userProfile.innerHTML = "";
-        alert('This username does not exist');
-        return 
-    } 
+        userUi = `
+            <div class ="user-ui">
+                <h3>This username does not exist</h3>
+            </div> ` ;
+    } else {
 
-    const userUi = `
+    userUi =  `
         <div class="user-ui">
             <div>
                 <a href="https://github.com/${user.login}" target="blank">
@@ -35,8 +37,9 @@ function showUserInfo(user) {
                     <li>${user.public_repos} Repositories </li>
                 </ul>
             </div>
-        </div>
-`;
+        </div> `;
+
+    }
     userProfile.innerHTML = userUi;
 }
 
